@@ -469,7 +469,7 @@ require('lazy').setup({
       -- NOTE:these servers are installed in the host machine, they dont work when listed in `servers`
       local native_servers = {
         elixirls = {
-          cmd = { "/home/matteac/dev/elixir/elixir-ls/lsp_dir/language_server.sh" }
+          cmd = { "~/dev/elixir/elixir-ls/lsp_dir/language_server.sh" }
         },
         gleam = {},
         rust_analyzer = {},
